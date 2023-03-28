@@ -1,0 +1,35 @@
+:root {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.slider-container {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.morse-button {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: none;
+  background: green;
+}
+
+.red-bg {
+  background: red;
+}
